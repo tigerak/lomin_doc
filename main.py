@@ -107,7 +107,7 @@ def btn_img_detect_cmd():
     promp = (['--source', file_name, 
               '--weights', './yolov5/runs/train/doc2006/weights/best.pt', 
               '--project', './data/img_data',
-            #   '--nosave',
+              '--nosave',
               '--save-crop']
     )
     opt = parse_opt(promp)
